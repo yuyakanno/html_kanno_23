@@ -1,0 +1,348 @@
+@charset "UTF-8";
+
+site-box {
+    width:1200px ;
+}
+
+body{
+    font-family:Arial, "游ゴシック Medium", YuGothic, "游ゴシック体" ; 
+    line-height: 2em;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;   
+}
+.logo {
+    padding-top: 20px;
+    padding-bottom:20px ;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.field {
+    display: flex;
+    
+}
+a {
+    font-size: 21px;
+    font-family: ;
+    padding:50px 25px 50px 25px;
+    color: #222222;
+    text-decoration: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.title-yellow {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+}
+
+.title-black {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222222;
+}
+
+.title-jp {
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+/* ここからhero-image */
+
+.hero-image {
+    position: relative; 
+}
+
+ .hero-image__eyecatch { */
+    max-width: 100%;
+    height: auto;
+}
+.hero-image_text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate3d(-50%,-50%,0);
+color: white;
+}
+
+.text-first {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.text-second {
+    font-size: 25px;
+    padding-top: 15px;
+    text-align: center;
+}
+/* hero-imageの記述終わり */
+
+/* ここからABOUTの記述 */
+.about {
+    padding-top: 60px;
+}
+.about-text {
+    padding-bottom: 40px;
+}
+.about-list {
+    display: flex;
+}
+.about-item{
+    width: 25%;
+}
+/* ABOUTの記述終わり */
+
+/* COURSEの記述開始 */
+.course {
+    padding-top: 60px;
+}
+.course-text{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.wrapper1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.course-img1{
+    width: 50%;
+    height: auto;
+}
+.container1 {
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    width: 50%;
+    height:460px ;
+}
+.box1-title {
+font-size: 24px;
+font-weight: bold;
+padding-bottom: 40px;
+padding-left: 50px;
+}
+.box1-text{
+    padding-left: 50px;
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.course-img2{
+    width: 50%;
+    height: auto;
+}
+.container2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #fafafa;
+    width: 50%;
+    height:460px ;
+}
+.box2-title {
+font-size: 24px;
+font-weight: bold;
+padding-bottom: 40px;
+padding-right: 50px;
+}
+.box2-text{
+padding-right: 50px;
+}
+
+.wrapper3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.course-img3{
+    width: 50%;
+    height: auto;
+}
+.container3 {
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    width: 50%;
+    height: 457px;
+}
+.box3-title {
+font-size: 24px;
+font-weight: bold;
+padding-bottom: 40px;
+padding-left: 50px;
+}
+.box3-text{
+    padding-left: 50px;
+}
+/* COURSEの記述終了 */
+/* NEWSの記述開始 */
+.news{
+    padding-top: 60px;
+}
+
+.date {
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+.news-text{
+    font-size: 14px;
+    width: 300px;
+    height: auto;
+}
+.news-contents {
+display: flex;
+justify-content: center;
+}
+.news1{
+    margin-right: 30px;
+}
+.news3 {
+    margin-left: 30px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom:60px;
+}
+.btn-box {
+    width: 300px;
+    height: 60px;
+    background-color: #ffd61a;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-text {
+font-size: 16px;
+color: #fafafa;
+}
+
+/* 以下、hoverアクションの記述 */
+.news1:hover{
+    opacity: .5;
+}
+.news2:hover{
+    opacity: .5;
+}
+.news3:hover{
+    opacity: .5;
+}
+
+.btn-box:hover {
+    opacity:.5;
+}
+/* NEWSの記述終了 */
+/* ACCESSの記述開始 */
+.access{
+    background-color: #fafafa;
+}
+.access-title{
+    padding-top: 60px;
+}
+.map{
+    width: 100%;
+    height: auto;
+}
+.access-info{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.access-text{
+    height: 50px;
+}
+.access-detail{
+    margin-left: 30px;
+}
+/* ACCESSの記述終了 */
+/* CONTACTの記述開始 */
+.contact {
+    padding-top: 60px;
+}
+.contact-text1{
+    padding-bottom: 30px;
+}
+.contact-text2{
+    padding-bottom: 70px;
+}
+.form-wrapper{
+    width: 650px;
+    margin: auto;
+}
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.contact-item{
+width: 160px;
+padding-left: 16px;
+padding-right: 64px;
+padding-top: 8px;
+padding-bottom: 8px;
+border:solid 1px #bfbfbf ;
+border-left: none;
+}
+.contact-body{
+width: 384px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 8px;
+border:solid 1px #bfbfbf ;
+border-right: none;
+}
+
+.form-parts{
+    box-sizing: border-box;
+    width: 328px;
+    font-size: 16px;
+    font-family:Arial, "游ゴシック Medium", YuGothic, "游ゴシック体" ;
+    padding: 8px;
+}
+
+input[type="submit"]{
+    width: 300px;
+    height: 60px;
+    background-color: #ffd61a;
+    color: #fafafa;
+    font-family:Arial, "游ゴシック Medium", YuGothic, "游ゴシック体" ;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.btn-submit{
+    display: flex;
+    justify-content: center;
+}
+
+/* CONTACTの記述終了 */
+/* fotterの記述開始 */
+
+.footer{
+    background-color: #707070;
+    padding: 30px 0;
+    margin-top: 140px;
+}
+.copyrights{
+    color: #fafafa;
+}
+/* footerの記述終了 */
